@@ -1,0 +1,14 @@
+.calendar-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8a9097;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+.calendar-header-wrapper > div:not(:nth-child(2)) {
+    cursor: pointer;
+    color: #717375;
+    font-size: 16px;
+}

@@ -1,0 +1,7 @@
+.date-range-viewer {
+    display: flex;
+    color: #8a9097;
+    font-size: 13px;
+    justify-content: space-between;
+    flex: 1;
+}

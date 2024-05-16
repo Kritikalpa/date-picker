@@ -1,0 +1,18 @@
+.ranges-wrapper {
+    width: 150px;
+}
+.ranges-wrapper > ul {
+    list-style: none;
+    font-size: 13px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #31a4d5;
+}
+.ranges-wrapper > ul > li {
+    cursor: pointer;
+}
+.ranges-wrapper > ul > li:hover {
+    color: #298eb9
+}

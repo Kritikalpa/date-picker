@@ -1,0 +1,26 @@
+.date-picker-wrapper {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  background-color: #292d33;
+  display: flex;
+}
+.date-picker-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(36, 36, 36, 0);
+}
+.date-picker-reset {
+  color: #9c9c9c;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #202227;
+  padding: 0px 7px;
+}
+.date-picker-reset:hover {
+  background-color: #101214;
+  cursor: pointer;
+}
